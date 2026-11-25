@@ -80,11 +80,53 @@ Everything profiled for 1ClickWebsite.ai is published on APIs.io rather than in 
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-#### Security (1)
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [1ClickWebsite.ai Agentic Access](https://apis.io/agentic-access/1clickwebsite-ai/1clickwebsite-ai-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [LeadGenBatchCreateRequest](https://apis.io/schemas/1clickwebsite-ai/1clickwebsite-ai-lead-gen-batch-create-request/)
+- [LeadGenBatchUpdateRequest](https://apis.io/schemas/1clickwebsite-ai/1clickwebsite-ai-lead-gen-batch-update-request/)
+- [LeadGenBatchUpdateResponse](https://apis.io/schemas/1clickwebsite-ai/1clickwebsite-ai-lead-gen-batch-update-response/)
+- [SiteCreateRequest](https://apis.io/schemas/1clickwebsite-ai/1clickwebsite-ai-site-create-request/)
+- [SiteStatus](https://apis.io/schemas/1clickwebsite-ai/1clickwebsite-ai-site-status/)
+- [SiteTemplate](https://apis.io/schemas/1clickwebsite-ai/1clickwebsite-ai-site-template/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [1Clickwebsite Ai Context](https://apis.io/jsonld/1clickwebsite-ai/1clickwebsite-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [1ClickWebsite.ai API Rules](https://apis.io/rules/1clickwebsite-ai/1clickwebsite-ai-rules/)
+
+#### Security (2)
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [1Clickwebsite Ai Domain Security](https://apis.io/security/1clickwebsite-ai/1clickwebsite-ai-domain-security/)
+- [1ClickWebsite.ai Authentication](https://apis.io/security/1clickwebsite-ai/1clickwebsite-ai-authentication/)
+- [1ClickWebsite.ai Domain Security](https://apis.io/security/1clickwebsite-ai/1clickwebsite-ai-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [1ClickWebsite.ai Scopes](https://apis.io/scopes/1clickwebsite-ai/1clickwebsite-ai-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [1ClickWebsite.ai Plans Pricing](https://apis.io/plans/1clickwebsite-ai/1clickwebsite-ai-plans-pricing/)
 
 ## Where to find this API
 
@@ -100,32 +142,32 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 21.8** — emerging · rubric 0.25.0 · scored 2026-10-31
+**Kin Score 33.1** — thin · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
 | Discoverability | 66.1 |
-| Contract quality | 0.0 |
-| Contract governance | 16.4 |
+| Contract quality | 20.7 |
+| Contract governance | 18.2 |
 | Operational transparency | 0.0 |
 | Developer ergonomics | 19.0 |
-| Access clarity | 44.7 |
+| Access clarity | 74.5 |
 
-**Agent readiness 6.7** — agent-aware
+**Agent readiness 8.5** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | — |
-| Agentic Access | — |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
-| MCP Server | documented (partial credit) |
+| MCP Server | — |
 | Auth Clarity | — |
 | Idempotency | — |
 | Error Semantics | — |
 | OpenAPI Examples | — |
 | Rate Limit Signal | — |
 | Event Surface Described | — |
-| Agent Skills | — |
+| Agent Skills | unknown |
 | Well Known Catalog | — |
 | Consent Identity | — |
 | Agent Card | — |
@@ -136,8 +178,12 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 22.5** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/1clickwebsite-ai/](https://apis.io/providers/1clickwebsite-ai/).
 
